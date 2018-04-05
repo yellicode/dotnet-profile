@@ -1,0 +1,214 @@
+{
+  "id": "QRmtpcH2JU6r92LXHG0_aA",
+  "creator": "Yellicode Modeler 0.2.1",
+  "modelTypeName": "Yellicode YML",
+  "modelTypeVersion": "0.1.0",
+  "profiles": {
+    "elementType": "model",
+    "packagedElements": [
+      {
+        "elementType": "profile",
+        "safeName": "NET_System",
+        "packagedElements": [
+          {
+            "elementType": "package",
+            "packagedElements": [
+              {
+                "elementType": "package",
+                "isNamespaceRoot": true,
+                "packagedElements": [
+                  {
+                    "elementType": "dataType",
+                    "name": "Boolean",
+                    "visibility": "public",
+                    "id": "VQPVUc3fEEGFSCr5BltbGQ",
+                    "ownedComments": [
+                      {
+                        "elementType": "comment",
+                        "body": "Represents a Boolean (true or false) value."
+                      }
+                    ]
+                  },
+                  {
+                    "elementType": "dataType",
+                    "name": "Byte",
+                    "visibility": "public",
+                    "id": "Ib6OQ75c2kqo3t1N825lUA",
+                    "ownedComments": [
+                      {
+                        "elementType": "comment",
+                        "body": "Represents an 8-bit unsigned integer."
+                      }
+                    ]
+                  },
+                  {
+                    "elementType": "dataType",
+                    "name": "SByte",
+                    "visibility": "public",
+                    "id": "oSh-I7zovU6iROF4MrScLQ"
+                  },
+                  {
+                    "elementType": "dataType",
+                    "name": "Char",
+                    "visibility": "public",
+                    "id": "W44umSnM7kqkRkQ-5ks5Zw",
+                    "ownedComments": [
+                      {
+                        "elementType": "comment",
+                        "body": "Represents a character as a UTF-16 code unit."
+                      }
+                    ]
+                  },
+                  {
+                    "elementType": "dataType",
+                    "name": "Decimal",
+                    "visibility": "public",
+                    "id": "rZDURj7r1ESm2uMVd_17Lg",
+                    "ownedComments": [
+                      {
+                        "elementType": "comment",
+                        "body": "Represents a decimal number."
+                      }
+                    ]
+                  },
+                  {
+                    "elementType": "dataType",
+                    "name": "Double",
+                    "visibility": "public",
+                    "id": "CIB1MeAj4UulbOJqsgQQiQ",
+                    "ownedComments": [
+                      {
+                        "elementType": "comment",
+                        "body": "Represents a double-precision floating-point number."
+                      }
+                    ]
+                  },
+                  {
+                    "elementType": "dataType",
+                    "name": "Single",
+                    "visibility": "public",
+                    "id": "OgH1jc7KOkGH4tLssP9Xug"
+                  },
+                  {
+                    "elementType": "dataType",
+                    "name": "Int32",
+                    "visibility": "public",
+                    "id": "HJ0rta6Yr0GRp3ht72Ys4g",
+                    "ownedComments": [
+                      {
+                        "elementType": "comment",
+                        "body": "Represents a 32-bit signed integer."
+                      }
+                    ]
+                  },
+                  {
+                    "elementType": "dataType",
+                    "name": "UInt32",
+                    "visibility": "public",
+                    "id": "akqKd9VJtUSpeqgJQ4TCuA"
+                  },
+                  {
+                    "elementType": "dataType",
+                    "name": "Int64",
+                    "visibility": "public",
+                    "id": "cXQgE3QuZ0ep-2xSvYF1Hg",
+                    "ownedComments": [
+                      {
+                        "elementType": "comment",
+                        "body": "Represents a 64-bit signed integer."
+                      }
+                    ]
+                  },
+                  {
+                    "elementType": "dataType",
+                    "name": "UInt64",
+                    "visibility": "public",
+                    "id": "x0kt2XTCEUGyLR7b4J54nQ"
+                  },
+                  {
+                    "elementType": "dataType",
+                    "name": "Object",
+                    "visibility": "public",
+                    "id": "yHBPCubaTECBj0X9z0P3aA"
+                  },
+                  {
+                    "elementType": "dataType",
+                    "name": "Int16",
+                    "visibility": "public",
+                    "id": "uVJ8796bEkGnT9_aznJlrg",
+                    "ownedComments": [
+                      {
+                        "elementType": "comment",
+                        "body": "Represents a 16-bit signed integer."
+                      }
+                    ]
+                  },
+                  {
+                    "elementType": "dataType",
+                    "name": "UInt16",
+                    "visibility": "public",
+                    "id": "v7y8lF8WVUWDmowL27fgqw"
+                  },
+                  {
+                    "elementType": "dataType",
+                    "name": "String",
+                    "visibility": "public",
+                    "id": "8KZMbAcLEUaK7JnLZAw0Eg"
+                  },
+                  {
+                    "elementType": "dataType",
+                    "name": "DateTime",
+                    "visibility": "public",
+                    "id": "S-2ASlG0PEizE9K32LPBDw",
+                    "ownedComments": [
+                      {
+                        "elementType": "comment",
+                        "body": "Represents an instant in time, typically expressed as a date and time of day."
+                      }
+                    ]
+                  },
+                  {
+                    "elementType": "dataType",
+                    "name": "DateTimeOffset",
+                    "visibility": "public",
+                    "id": "dT63wOa3SUaUa-ql486DTQ",
+                    "ownedComments": [
+                      {
+                        "elementType": "comment",
+                        "body": "Represents a point in time, typically expressed as a date and time of day, relative to Coordinated Universal Time (UTC)."
+                      }
+                    ]
+                  },
+                  {
+                    "elementType": "dataType",
+                    "name": "Guid",
+                    "visibility": "public",
+                    "id": "qlg9N5yyQUCgEiwPtIppOQ",
+                    "ownedComments": [
+                      {
+                        "elementType": "comment",
+                        "body": "Represents a globally unique identifier (GUID)."
+                      }
+                    ]
+                  }
+                ],
+                "name": "System",
+                "visibility": "public",
+                "id": "McTa5PkGSE2pP67a1sIIDw"
+              }
+            ],
+            "name": "Types",
+            "visibility": "public",
+            "id": "Y6WqxXCPuUySDbBPP0-uIg"
+          }
+        ],
+        "name": ".NET System",
+        "visibility": "public",
+        "id": "paY_UIXazk23KrtPOvG3Hg"
+      }
+    ],
+    "name": "Profiles",
+    "id": "xMC1Lkwxa0izsPU9T3fluA"
+  },
+  "references": []
+}
