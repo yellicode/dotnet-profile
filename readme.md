@@ -16,7 +16,12 @@ License: MIT
 2. In the REFERENCES tab in the project explorer, click the '+' icon and choose *NPM Package*.
 3. Enter *@yellicode/dotnet-profile* and wait for the package to install.
 
-## Using the .NET profile in a Yellicode template
+After installing the package, you can apply the profile to your model or individual packages:
+1. Right-click the model or package and Choose 'Apply Profile(s)'.
+2. Select '.NET System'.
+3. Now you can use the .NET types for your model model elements.
+
+## Using the .NET profile in a code generation template
 This profile provides an API that lets you check if a given element is a .NET type. For example, you can use the following code in your code generation template to map .NET types to SQL server types:
 ```ts
 import * as DotNet from '@yellicode/dotnet-profile';
