@@ -1,0 +1,12 @@
+{
+    "compileTypeScript": true,
+    "templates": [
+        {
+            "modelFile": "./src/dotnet-profile",
+            "templateFile": "./src/dotnet-type-provider.template.ts",
+            "templateArgs": {
+                "publishedDocumentPath": "../model/dotnet-profile.ymn"
+            }
+        }
+    ]
+}

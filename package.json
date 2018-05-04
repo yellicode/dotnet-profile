@@ -1,29 +1,35 @@
 {
   "name": "@yellicode/dotnet-profile",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": ".NET profile for Yellicode - an extensible code generator.",
   "license": "MIT",
-  "main": "dist/bundles/dotnet-profile.umd.js",
-  "module": "dist/es5/dotnet-profile.js",
-  "es2015": "dist/es6/dotnet-profile.js",
-  "types": "dist/types/dotnet-profile.d.ts",
+  "main": "dist/bundles/index.umd.js",
+  "module": "dist/es5/index.js",
+  "es2015": "dist/es6/index.js",
+  "types": "dist/types/index.d.ts",
   "repository": {
     "type": "git",
     "url": "github:yellicode/dotnet-profile.git"
   },
+  "dependencies": {
+    "@yellicode/model": "^0.2.0"
+  },
   "devDependencies": {
-    "@yellicode/model": "^0.1.8",
+    "@types/node": "^10.0.2",
+    "@yellicode/templating": "^0.3.0",
+    "@yellicode/typescript": "^0.1.4",
+    "gulp": "^3.9.1",
     "rollup": "^0.50.0"
   },
   "scripts": {
     "build:es5": "tsc",
     "build:es6": "tsc -m es6 -t es6 --outDir dist/es6 --declaration --declarationDir dist/types",
     "build:umd": "./node_modules/.bin/rollup --config rollup.config.js",
-    "build:dist": "npm run build:es5 & npm run build:es6 & npm run build:umd",
-    "build": "npm run build:dist",
+    "build:dist": "gulp publish-model & npm run build:es5 & npm run build:es6 & npm run build:umd",
+    "build": "yellicode && npm run build:dist",
     "prepublish": "npm run build:dist"
   },
   "com_yellicode": {
-    "model": "./dotnet-profile.ymn"
+    "model": "./dist/model/dotnet-profile.ymn"
   }
 }
