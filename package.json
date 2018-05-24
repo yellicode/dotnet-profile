@@ -1,6 +1,6 @@
 {
   "name": "@yellicode/dotnet-profile",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": ".NET profile for Yellicode - an extensible code generator.",
   "license": "MIT",
   "main": "dist/bundles/index.umd.js",
