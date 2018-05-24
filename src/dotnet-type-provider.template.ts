@@ -1,4 +1,4 @@
-import * as model from '@yellicode/model';
+import * as elements from '@yellicode/elements';
 import { Generator, TextWriter } from '@yellicode/templating';
 import { TypeScriptWriter } from '@yellicode/typescript';
 
@@ -9,11 +9,11 @@ const publishedDocumentPath = Generator.templateArgs.publishedDocumentPath;
 // Get the model using noParse: this returns unparsed ymn document. We parse it here so that we have access to the profiles.
 Generator.getModel<any>({ noParse: true }).then(documentData => {
     Generator.generate({ outputFile: outputFile }, (textWriter: TextWriter) => {
-        const parsedDocument = model.ModelReader.readDocument(documentData);
+        const parsedDocument = elements.ModelReader.readDocument(documentData);
         const typeScript = new TypeScriptWriter(textWriter);
 
         // Write imports
-        typeScript.writeLine(`import * as model from '@yellicode/model';`);
+        typeScript.writeLine(`import * as elements from '@yellicode/elements';`);
         typeScript.writeLine(`import { TypeResolver } from './type-resolver';`);
         typeScript.writeLine();
         typeScript.writeLine(`export class ${className}`);
@@ -37,7 +37,7 @@ Generator.getModel<any>({ noParse: true }).then(documentData => {
                 parsedDocument.profiles.getAllTypes().forEach(type => {
                     typeScript.writeLine();
                     typeScript.writeJsDocDescription(`Returns a Type object that represents the ${type.getQualifiedName()} type.`)
-                    typeScript.writeLine(`public get${type.name}(): model.Type`);
+                    typeScript.writeLine(`public get${type.name}(): elements.Type`);
                     typeScript.writeCodeBlock(() => {
                         typeScript.writeLine(`return this.typeResolver.getTypeById('${type.id}');`);
                     });                    

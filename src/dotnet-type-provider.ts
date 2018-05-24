@@ -1,4 +1,4 @@
-import * as model from '@yellicode/model';
+import * as elements from '@yellicode/elements';
 import { TypeResolver } from './type-resolver';
 
 export class DotNetTypeProvider
@@ -19,7 +19,7 @@ export class DotNetTypeProvider
 	/**
 	* Returns a Type object that represents the System.Boolean type.
 	*/
-	public getBoolean(): model.Type
+	public getBoolean(): elements.Type
 	{
 		return this.typeResolver.getTypeById('VQPVUc3fEEGFSCr5BltbGQ');
 	}
@@ -27,7 +27,7 @@ export class DotNetTypeProvider
 	/**
 	* Returns a Type object that represents the System.Byte type.
 	*/
-	public getByte(): model.Type
+	public getByte(): elements.Type
 	{
 		return this.typeResolver.getTypeById('Ib6OQ75c2kqo3t1N825lUA');
 	}
@@ -35,7 +35,7 @@ export class DotNetTypeProvider
 	/**
 	* Returns a Type object that represents the System.Char type.
 	*/
-	public getChar(): model.Type
+	public getChar(): elements.Type
 	{
 		return this.typeResolver.getTypeById('W44umSnM7kqkRkQ-5ks5Zw');
 	}
@@ -43,7 +43,7 @@ export class DotNetTypeProvider
 	/**
 	* Returns a Type object that represents the System.DateTime type.
 	*/
-	public getDateTime(): model.Type
+	public getDateTime(): elements.Type
 	{
 		return this.typeResolver.getTypeById('S-2ASlG0PEizE9K32LPBDw');
 	}
@@ -51,7 +51,7 @@ export class DotNetTypeProvider
 	/**
 	* Returns a Type object that represents the System.DateTimeOffset type.
 	*/
-	public getDateTimeOffset(): model.Type
+	public getDateTimeOffset(): elements.Type
 	{
 		return this.typeResolver.getTypeById('dT63wOa3SUaUa-ql486DTQ');
 	}
@@ -59,7 +59,7 @@ export class DotNetTypeProvider
 	/**
 	* Returns a Type object that represents the System.Decimal type.
 	*/
-	public getDecimal(): model.Type
+	public getDecimal(): elements.Type
 	{
 		return this.typeResolver.getTypeById('rZDURj7r1ESm2uMVd_17Lg');
 	}
@@ -67,7 +67,7 @@ export class DotNetTypeProvider
 	/**
 	* Returns a Type object that represents the System.Double type.
 	*/
-	public getDouble(): model.Type
+	public getDouble(): elements.Type
 	{
 		return this.typeResolver.getTypeById('CIB1MeAj4UulbOJqsgQQiQ');
 	}
@@ -75,7 +75,7 @@ export class DotNetTypeProvider
 	/**
 	* Returns a Type object that represents the System.Guid type.
 	*/
-	public getGuid(): model.Type
+	public getGuid(): elements.Type
 	{
 		return this.typeResolver.getTypeById('qlg9N5yyQUCgEiwPtIppOQ');
 	}
@@ -83,7 +83,7 @@ export class DotNetTypeProvider
 	/**
 	* Returns a Type object that represents the System.Int16 type.
 	*/
-	public getInt16(): model.Type
+	public getInt16(): elements.Type
 	{
 		return this.typeResolver.getTypeById('uVJ8796bEkGnT9_aznJlrg');
 	}
@@ -91,7 +91,7 @@ export class DotNetTypeProvider
 	/**
 	* Returns a Type object that represents the System.Int32 type.
 	*/
-	public getInt32(): model.Type
+	public getInt32(): elements.Type
 	{
 		return this.typeResolver.getTypeById('HJ0rta6Yr0GRp3ht72Ys4g');
 	}
@@ -99,7 +99,7 @@ export class DotNetTypeProvider
 	/**
 	* Returns a Type object that represents the System.Int64 type.
 	*/
-	public getInt64(): model.Type
+	public getInt64(): elements.Type
 	{
 		return this.typeResolver.getTypeById('cXQgE3QuZ0ep-2xSvYF1Hg');
 	}
@@ -107,7 +107,7 @@ export class DotNetTypeProvider
 	/**
 	* Returns a Type object that represents the System.Object type.
 	*/
-	public getObject(): model.Type
+	public getObject(): elements.Type
 	{
 		return this.typeResolver.getTypeById('yHBPCubaTECBj0X9z0P3aA');
 	}
@@ -115,7 +115,7 @@ export class DotNetTypeProvider
 	/**
 	* Returns a Type object that represents the System.SByte type.
 	*/
-	public getSByte(): model.Type
+	public getSByte(): elements.Type
 	{
 		return this.typeResolver.getTypeById('oSh-I7zovU6iROF4MrScLQ');
 	}
@@ -123,7 +123,7 @@ export class DotNetTypeProvider
 	/**
 	* Returns a Type object that represents the System.Single type.
 	*/
-	public getSingle(): model.Type
+	public getSingle(): elements.Type
 	{
 		return this.typeResolver.getTypeById('OgH1jc7KOkGH4tLssP9Xug');
 	}
@@ -131,7 +131,7 @@ export class DotNetTypeProvider
 	/**
 	* Returns a Type object that represents the System.String type.
 	*/
-	public getString(): model.Type
+	public getString(): elements.Type
 	{
 		return this.typeResolver.getTypeById('8KZMbAcLEUaK7JnLZAw0Eg');
 	}
@@ -139,7 +139,7 @@ export class DotNetTypeProvider
 	/**
 	* Returns a Type object that represents the System.UInt16 type.
 	*/
-	public getUInt16(): model.Type
+	public getUInt16(): elements.Type
 	{
 		return this.typeResolver.getTypeById('v7y8lF8WVUWDmowL27fgqw');
 	}
@@ -147,7 +147,7 @@ export class DotNetTypeProvider
 	/**
 	* Returns a Type object that represents the System.UInt32 type.
 	*/
-	public getUInt32(): model.Type
+	public getUInt32(): elements.Type
 	{
 		return this.typeResolver.getTypeById('akqKd9VJtUSpeqgJQ4TCuA');
 	}
@@ -155,7 +155,7 @@ export class DotNetTypeProvider
 	/**
 	* Returns a Type object that represents the System.UInt64 type.
 	*/
-	public getUInt64(): model.Type
+	public getUInt64(): elements.Type
 	{
 		return this.typeResolver.getTypeById('x0kt2XTCEUGyLR7b4J54nQ');
 	}
