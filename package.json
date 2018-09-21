@@ -2,6 +2,11 @@
   "name": "@yellicode/dotnet-profile",
   "version": "0.1.2",
   "description": ".NET profile for Yellicode - an extensible code generator.",
+  "keywords": [
+    "code generator",
+    "code generation",
+    ".NET profile"    
+  ],
   "license": "MIT",
   "main": "dist/bundles/index.umd.js",
   "module": "dist/es5/index.js",
