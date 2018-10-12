@@ -1,6 +1,6 @@
 {
   "name": "@yellicode/dotnet-profile",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": ".NET profile for Yellicode - an extensible code generator.",
   "keywords": [
     "code generator",
