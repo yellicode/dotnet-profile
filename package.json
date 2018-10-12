@@ -5,7 +5,7 @@
   "keywords": [
     "code generator",
     "code generation",
-    ".NET profile"    
+    ".NET profile"
   ],
   "license": "MIT",
   "main": "dist/bundles/index.umd.js",
@@ -17,14 +17,14 @@
     "url": "github:yellicode/dotnet-profile.git"
   },
   "dependencies": {
-    "@yellicode/elements": "^0.2.1"    
+    "@yellicode/elements": "^1.0.0"
   },
   "devDependencies": {
-    "@types/node": "^10.0.2",
-    "@yellicode/templating": "^0.3.0",
-    "@yellicode/typescript": "^0.1.4",
+    "@types/node": "^10.11.7",
+    "@yellicode/templating": "^1.0.0",
+    "@yellicode/typescript": "^1.0.0",
     "gulp": "^3.9.1",
-    "rollup": "^0.50.0"
+    "rollup": "^0.66.6"
   },
   "scripts": {
     "build:es5": "tsc",
