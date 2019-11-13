@@ -17,12 +17,13 @@
     "url": "github:yellicode/dotnet-profile.git"
   },
   "dependencies": {
-    "@yellicode/elements": "^1.1.1"
+    "@yellicode/core": "^1.2.1",
+    "@yellicode/elements": "^1.2.2"
   },
   "devDependencies": {
     "@types/node": "^10.11.7",
-    "@yellicode/templating": "^1.0.0",
-    "@yellicode/typescript": "^1.0.0",
+    "@yellicode/templating": "^1.6.0",
+    "@yellicode/typescript": "^1.8.0",
     "gulp": "^3.9.1",
     "rollup": "^0.66.6"
   },

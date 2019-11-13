@@ -1,5 +1,6 @@
 import * as elements from '@yellicode/elements';
-import { Generator, TextWriter } from '@yellicode/templating';
+import { Generator } from '@yellicode/templating';
+import { TextWriter } from '@yellicode/core';
 import { TypeScriptWriter } from '@yellicode/typescript';
 
 const className = 'DotNetTypeProvider';
