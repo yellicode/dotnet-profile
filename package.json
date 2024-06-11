@@ -24,7 +24,7 @@
     "@types/node": "^10.11.7",
     "@yellicode/templating": "^1.6.0",
     "@yellicode/typescript": "^1.8.0",
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "rollup": "^0.66.6"
   },
   "scripts": {
